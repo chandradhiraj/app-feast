@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:background="@drawable/w"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+    <com.android.appfeast.fonts.CustomFontTextView
+            android:id="@+id/text_line"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            android:layout_alignParentBottom="true"
+            android:paddingBottom="20dp"
+            android:layout_centerHorizontal="true"
+            android:text="Instant Mobile App!!"/>
+
+    <ImageView
+        android:id="@+id/chalk_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:paddingBottom="50dp"
+        android:src="@drawable/icon"/>
+    <ProgressBar
+        android:id="@+id/pb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        />
+
+</RelativeLayout>

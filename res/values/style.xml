@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DialogStyleLight.Custom">
+        <!-- anything can be left out: -->
+        <item name="titleTextColor">@color/dialog_title_text</item>
+        <item name="titleSeparatorColor">@color/dialog_title_separator</item>
+        <item name="messageTextColor">@color/dialog_message_text</item>
+        <item name="buttonTextColor">@color/black</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="sdlDialogStyle">@style/DialogStyleLight.Custom</item>
+    </style>
+    <style name="splash_theme" parent="Theme.AppCompat.Light">
+        <item name="sdlDialogStyle">@style/DialogStyleLight.Custom</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>

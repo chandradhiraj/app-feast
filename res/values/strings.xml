@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">app-feast</string>
+    <string name="gps_message">This app required Google play services, please update!!</string>
+    <string name="title">Error</string>
+    <string name="login_title">Login</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">closed</string>
+    <string name="login_bttn_text">Login</string>
+</resources>
