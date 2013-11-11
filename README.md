@@ -16,7 +16,7 @@ How it can help you?
 Two Application Screen:
 ----------------------
 Splash <br>
-Login<br><br>
+Login<br>
 
 Note
 ====
