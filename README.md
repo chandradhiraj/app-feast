@@ -18,4 +18,8 @@ Two Application Screen:
 Splash <br>
 Login<br><br>
 
+Note
+====
+You can run application on emulator too, though i have choosen it to be location aware app so, using androidmanist.xml <b>meta-data</b> tag for emulator location currently its set 0.0 0.0.
+
 Happy Coding!!
